@@ -1,0 +1,15 @@
+{
+  "dataset_id": "alphabet3_states10_v2",
+  "architecture": "lstm",
+  "accuracy": 0.999977795787861,
+  "alphabet": [
+    "a",
+    "b",
+    "c"
+  ],
+  "alphabet_size": 3,
+  "hidden_dim": 100,
+  "num_layers": 2,
+  "embedding_dim": 10,
+  "training_method": "balanced"
+}

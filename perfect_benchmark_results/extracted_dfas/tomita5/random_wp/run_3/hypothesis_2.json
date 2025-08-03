@@ -1,0 +1,61 @@
+{
+  "iteration": 2,
+  "time": 0.16178607940673828,
+  "states": [
+    "",
+    "01",
+    "0",
+    "01110"
+  ],
+  "alphabet": [
+    "0",
+    "1"
+  ],
+  "start_state": "",
+  "accept_states": [
+    ""
+  ],
+  "transitions": [
+    {
+      "from": "",
+      "symbol": "0",
+      "to": "0"
+    },
+    {
+      "from": "",
+      "symbol": "1",
+      "to": "01110"
+    },
+    {
+      "from": "01",
+      "symbol": "0",
+      "to": "01110"
+    },
+    {
+      "from": "01",
+      "symbol": "1",
+      "to": "0"
+    },
+    {
+      "from": "0",
+      "symbol": "0",
+      "to": ""
+    },
+    {
+      "from": "0",
+      "symbol": "1",
+      "to": "01"
+    },
+    {
+      "from": "01110",
+      "symbol": "0",
+      "to": "01"
+    },
+    {
+      "from": "01110",
+      "symbol": "1",
+      "to": ""
+    }
+  ],
+  "num_states": 4
+}

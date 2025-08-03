@@ -1,0 +1,98 @@
+{
+  "states": [
+    "",
+    "())",
+    "("
+  ],
+  "alphabet": [
+    "(",
+    ")"
+  ],
+  "start_state": "",
+  "accept_states": [
+    ""
+  ],
+  "transitions": [
+    {
+      "from": "",
+      "symbol": "(",
+      "to": "("
+    },
+    {
+      "from": "",
+      "symbol": ")",
+      "to": "())"
+    },
+    {
+      "from": "(",
+      "symbol": "(",
+      "to": "())"
+    },
+    {
+      "from": "(",
+      "symbol": ")",
+      "to": ""
+    },
+    {
+      "from": "())",
+      "symbol": "(",
+      "to": "())"
+    },
+    {
+      "from": "())",
+      "symbol": ")",
+      "to": "())"
+    }
+  ],
+  "num_states": 3,
+  "grammar": "balanced_brackets",
+  "oracle": "whitebox",
+  "run": 1,
+  "learning_history": [
+    {
+      "iteration": 1,
+      "time": 0.003229856491088867,
+      "size": 2,
+      "accuracy": 0.665,
+      "is_best": true,
+      "states": 2,
+      "dfa_summary": {
+        "states": [
+          "",
+          "("
+        ],
+        "accept_states": [
+          ""
+        ],
+        "start_state": ""
+      },
+      "counterexample": {
+        "string": "()))",
+        "length": 4,
+        "rnn_label": false,
+        "dfa_label": true,
+        "found_by": "whitebox"
+      }
+    },
+    {
+      "iteration": 2,
+      "time": 0.058632612228393555,
+      "size": 3,
+      "accuracy": 0.994,
+      "is_best": true,
+      "states": 3,
+      "dfa_summary": {
+        "states": [
+          "",
+          "())",
+          "("
+        ],
+        "accept_states": [
+          ""
+        ],
+        "start_state": ""
+      },
+      "counterexample": null
+    }
+  ]
+}

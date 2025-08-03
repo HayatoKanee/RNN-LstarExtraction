@@ -1,0 +1,127 @@
+{
+  "states": [
+    "",
+    "1010",
+    "10",
+    "101",
+    "1"
+  ],
+  "alphabet": [
+    "0",
+    "1"
+  ],
+  "start_state": "",
+  "accept_states": [
+    "",
+    "1",
+    "101",
+    "10"
+  ],
+  "transitions": [
+    {
+      "from": "",
+      "symbol": "0",
+      "to": ""
+    },
+    {
+      "from": "",
+      "symbol": "1",
+      "to": "1"
+    },
+    {
+      "from": "1010",
+      "symbol": "0",
+      "to": "1010"
+    },
+    {
+      "from": "1010",
+      "symbol": "1",
+      "to": "1010"
+    },
+    {
+      "from": "10",
+      "symbol": "0",
+      "to": "10"
+    },
+    {
+      "from": "10",
+      "symbol": "1",
+      "to": "101"
+    },
+    {
+      "from": "101",
+      "symbol": "0",
+      "to": "1010"
+    },
+    {
+      "from": "101",
+      "symbol": "1",
+      "to": "101"
+    },
+    {
+      "from": "1",
+      "symbol": "0",
+      "to": "10"
+    },
+    {
+      "from": "1",
+      "symbol": "1",
+      "to": "1"
+    }
+  ],
+  "num_states": 5,
+  "grammar": "tomita7",
+  "oracle": "random_wp",
+  "run": 1,
+  "learning_history": [
+    {
+      "iteration": 1,
+      "time": 0.009853839874267578,
+      "size": 1,
+      "accuracy": 0.02,
+      "is_best": true,
+      "states": 1,
+      "dfa_summary": {
+        "states": [
+          ""
+        ],
+        "accept_states": [
+          ""
+        ],
+        "start_state": ""
+      },
+      "counterexample": {
+        "string": "1010",
+        "length": 4,
+        "rnn_label": false,
+        "dfa_label": true,
+        "found_by": "random_wp"
+      }
+    },
+    {
+      "iteration": 2,
+      "time": 0.1586315631866455,
+      "size": 5,
+      "accuracy": 1.0,
+      "is_best": true,
+      "states": 5,
+      "dfa_summary": {
+        "states": [
+          "",
+          "1010",
+          "10",
+          "101",
+          "1"
+        ],
+        "accept_states": [
+          "",
+          "1",
+          "101",
+          "10"
+        ],
+        "start_state": ""
+      },
+      "counterexample": null
+    }
+  ]
+}

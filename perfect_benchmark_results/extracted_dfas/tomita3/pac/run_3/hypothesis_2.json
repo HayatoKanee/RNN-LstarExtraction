@@ -1,0 +1,69 @@
+{
+  "iteration": 2,
+  "time": 0.13477253913879395,
+  "states": [
+    "",
+    "1",
+    "110101",
+    "11010"
+  ],
+  "alphabet": [
+    "0",
+    "1"
+  ],
+  "start_state": "",
+  "accept_states": [
+    "",
+    "1"
+  ],
+  "transitions": [
+    {
+      "from": "",
+      "symbol": "0",
+      "to": ""
+    },
+    {
+      "from": "",
+      "symbol": "1",
+      "to": "1"
+    },
+    {
+      "from": "1",
+      "symbol": "0",
+      "to": "11010"
+    },
+    {
+      "from": "1",
+      "symbol": "1",
+      "to": ""
+    },
+    {
+      "from": "110101",
+      "symbol": "0",
+      "to": "110101"
+    },
+    {
+      "from": "110101",
+      "symbol": "1",
+      "to": "110101"
+    },
+    {
+      "from": "11010",
+      "symbol": "0",
+      "to": "1"
+    },
+    {
+      "from": "11010",
+      "symbol": "1",
+      "to": "110101"
+    }
+  ],
+  "num_states": 4,
+  "counterexample_that_rejected_this": {
+    "string": "100101",
+    "length": 6,
+    "rnn_label": false,
+    "dfa_label": true,
+    "found_by": "pac"
+  }
+}

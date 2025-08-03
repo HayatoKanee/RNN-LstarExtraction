@@ -1,0 +1,98 @@
+{
+  "states": [
+    "",
+    ")",
+    "("
+  ],
+  "alphabet": [
+    "(",
+    ")"
+  ],
+  "start_state": "",
+  "accept_states": [
+    ""
+  ],
+  "transitions": [
+    {
+      "from": "",
+      "symbol": "(",
+      "to": "("
+    },
+    {
+      "from": "",
+      "symbol": ")",
+      "to": ")"
+    },
+    {
+      "from": ")",
+      "symbol": "(",
+      "to": ")"
+    },
+    {
+      "from": ")",
+      "symbol": ")",
+      "to": ")"
+    },
+    {
+      "from": "(",
+      "symbol": "(",
+      "to": ")"
+    },
+    {
+      "from": "(",
+      "symbol": ")",
+      "to": ""
+    }
+  ],
+  "num_states": 3,
+  "grammar": "balanced_brackets",
+  "oracle": "sliding_window_w2",
+  "run": 1,
+  "learning_history": [
+    {
+      "iteration": 1,
+      "time": 0.2548813819885254,
+      "size": 2,
+      "accuracy": 0.0,
+      "is_best": true,
+      "states": 2,
+      "dfa_summary": {
+        "states": [
+          "",
+          "("
+        ],
+        "accept_states": [
+          ""
+        ],
+        "start_state": ""
+      },
+      "counterexample": {
+        "string": "))",
+        "length": 2,
+        "rnn_label": false,
+        "dfa_label": true,
+        "found_by": "sliding_window"
+      }
+    },
+    {
+      "iteration": 2,
+      "time": 0.29567551612854004,
+      "size": 3,
+      "accuracy": 0.0,
+      "is_best": false,
+      "states": 3,
+      "dfa_summary": {
+        "states": [
+          "",
+          ")",
+          "("
+        ],
+        "accept_states": [
+          ""
+        ],
+        "start_state": ""
+      },
+      "counterexample": null
+    }
+  ]
+}

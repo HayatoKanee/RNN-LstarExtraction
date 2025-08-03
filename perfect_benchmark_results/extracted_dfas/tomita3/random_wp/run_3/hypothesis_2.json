@@ -1,0 +1,69 @@
+{
+  "iteration": 2,
+  "time": 0.16381001472473145,
+  "states": [
+    "",
+    "10",
+    "1",
+    "101"
+  ],
+  "alphabet": [
+    "0",
+    "1"
+  ],
+  "start_state": "",
+  "accept_states": [
+    "",
+    "1"
+  ],
+  "transitions": [
+    {
+      "from": "",
+      "symbol": "0",
+      "to": ""
+    },
+    {
+      "from": "",
+      "symbol": "1",
+      "to": "1"
+    },
+    {
+      "from": "1",
+      "symbol": "0",
+      "to": "10"
+    },
+    {
+      "from": "1",
+      "symbol": "1",
+      "to": ""
+    },
+    {
+      "from": "101",
+      "symbol": "0",
+      "to": "101"
+    },
+    {
+      "from": "101",
+      "symbol": "1",
+      "to": "101"
+    },
+    {
+      "from": "10",
+      "symbol": "0",
+      "to": "1"
+    },
+    {
+      "from": "10",
+      "symbol": "1",
+      "to": "101"
+    }
+  ],
+  "num_states": 4,
+  "counterexample_that_rejected_this": {
+    "string": "010010",
+    "length": 6,
+    "rnn_label": false,
+    "dfa_label": true,
+    "found_by": "random_wp"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "dataset_id": "alphabet2_states20_v2",
+  "architecture": "lstm",
+  "accuracy": 0.9998359066159469,
+  "alphabet": [
+    "0",
+    "1"
+  ],
+  "alphabet_size": 2,
+  "hidden_dim": 100,
+  "num_layers": 2,
+  "embedding_dim": 10,
+  "training_method": "balanced"
+}

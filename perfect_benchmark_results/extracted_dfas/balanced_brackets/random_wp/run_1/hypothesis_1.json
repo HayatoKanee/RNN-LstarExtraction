@@ -1,0 +1,46 @@
+{
+  "iteration": 1,
+  "time": 0.09528398513793945,
+  "states": [
+    "",
+    "("
+  ],
+  "alphabet": [
+    "(",
+    ")"
+  ],
+  "start_state": "",
+  "accept_states": [
+    ""
+  ],
+  "transitions": [
+    {
+      "from": "",
+      "symbol": "(",
+      "to": "("
+    },
+    {
+      "from": "",
+      "symbol": ")",
+      "to": "("
+    },
+    {
+      "from": "(",
+      "symbol": "(",
+      "to": "("
+    },
+    {
+      "from": "(",
+      "symbol": ")",
+      "to": ""
+    }
+  ],
+  "num_states": 2,
+  "counterexample_that_rejected_this": {
+    "string": "(()()",
+    "length": 5,
+    "rnn_label": false,
+    "dfa_label": true,
+    "found_by": "random_wp"
+  }
+}

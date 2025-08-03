@@ -1,0 +1,153 @@
+{
+  "states": [
+    "",
+    "000001",
+    "00000100",
+    "1100101",
+    "0000010"
+  ],
+  "alphabet": [
+    "0",
+    "1"
+  ],
+  "start_state": "",
+  "accept_states": [
+    "",
+    "000001",
+    "00000100"
+  ],
+  "transitions": [
+    {
+      "from": "",
+      "symbol": "0",
+      "to": ""
+    },
+    {
+      "from": "",
+      "symbol": "1",
+      "to": "000001"
+    },
+    {
+      "from": "000001",
+      "symbol": "0",
+      "to": "0000010"
+    },
+    {
+      "from": "000001",
+      "symbol": "1",
+      "to": ""
+    },
+    {
+      "from": "00000100",
+      "symbol": "0",
+      "to": "0000010"
+    },
+    {
+      "from": "00000100",
+      "symbol": "1",
+      "to": "00000100"
+    },
+    {
+      "from": "1100101",
+      "symbol": "0",
+      "to": "1100101"
+    },
+    {
+      "from": "1100101",
+      "symbol": "1",
+      "to": "1100101"
+    },
+    {
+      "from": "0000010",
+      "symbol": "0",
+      "to": "00000100"
+    },
+    {
+      "from": "0000010",
+      "symbol": "1",
+      "to": "1100101"
+    }
+  ],
+  "num_states": 5,
+  "grammar": "tomita3",
+  "oracle": "pac",
+  "run": 2,
+  "learning_history": [
+    {
+      "iteration": 1,
+      "time": 0.01515054702758789,
+      "size": 1,
+      "accuracy": 0.073,
+      "is_best": true,
+      "states": 1,
+      "dfa_summary": {
+        "states": [
+          ""
+        ],
+        "accept_states": [
+          ""
+        ],
+        "start_state": ""
+      },
+      "counterexample": {
+        "string": "110010",
+        "length": 6,
+        "rnn_label": false,
+        "dfa_label": true,
+        "found_by": "pac"
+      }
+    },
+    {
+      "iteration": 2,
+      "time": 0.22077608108520508,
+      "size": 4,
+      "accuracy": 0.941,
+      "is_best": true,
+      "states": 4,
+      "dfa_summary": {
+        "states": [
+          "",
+          "1",
+          "1100101",
+          "110010"
+        ],
+        "accept_states": [
+          "",
+          "1"
+        ],
+        "start_state": ""
+      },
+      "counterexample": {
+        "string": "0000010010",
+        "length": 10,
+        "rnn_label": false,
+        "dfa_label": true,
+        "found_by": "pac"
+      }
+    },
+    {
+      "iteration": 3,
+      "time": 0.510540246963501,
+      "size": 5,
+      "accuracy": 1.0,
+      "is_best": true,
+      "states": 5,
+      "dfa_summary": {
+        "states": [
+          "",
+          "000001",
+          "00000100",
+          "1100101",
+          "0000010"
+        ],
+        "accept_states": [
+          "",
+          "000001",
+          "00000100"
+        ],
+        "start_state": ""
+      },
+      "counterexample": null
+    }
+  ]
+}

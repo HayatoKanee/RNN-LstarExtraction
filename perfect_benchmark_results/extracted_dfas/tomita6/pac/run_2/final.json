@@ -1,0 +1,98 @@
+{
+  "states": [
+    "",
+    "0",
+    "0100"
+  ],
+  "alphabet": [
+    "0",
+    "1"
+  ],
+  "start_state": "",
+  "accept_states": [
+    ""
+  ],
+  "transitions": [
+    {
+      "from": "",
+      "symbol": "0",
+      "to": "0"
+    },
+    {
+      "from": "",
+      "symbol": "1",
+      "to": "0100"
+    },
+    {
+      "from": "0",
+      "symbol": "0",
+      "to": "0100"
+    },
+    {
+      "from": "0",
+      "symbol": "1",
+      "to": ""
+    },
+    {
+      "from": "0100",
+      "symbol": "0",
+      "to": ""
+    },
+    {
+      "from": "0100",
+      "symbol": "1",
+      "to": "0"
+    }
+  ],
+  "num_states": 3,
+  "grammar": "tomita6",
+  "oracle": "pac",
+  "run": 2,
+  "learning_history": [
+    {
+      "iteration": 1,
+      "time": 0.01229405403137207,
+      "size": 2,
+      "accuracy": 0.566,
+      "is_best": true,
+      "states": 2,
+      "dfa_summary": {
+        "states": [
+          "",
+          "0"
+        ],
+        "accept_states": [
+          ""
+        ],
+        "start_state": ""
+      },
+      "counterexample": {
+        "string": "01001",
+        "length": 5,
+        "rnn_label": false,
+        "dfa_label": true,
+        "found_by": "pac"
+      }
+    },
+    {
+      "iteration": 2,
+      "time": 0.0512242317199707,
+      "size": 3,
+      "accuracy": 1.0,
+      "is_best": true,
+      "states": 3,
+      "dfa_summary": {
+        "states": [
+          "",
+          "0",
+          "0100"
+        ],
+        "accept_states": [
+          ""
+        ],
+        "start_state": ""
+      },
+      "counterexample": null
+    }
+  ]
+}

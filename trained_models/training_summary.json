@@ -1,0 +1,58 @@
+[
+  {
+    "grammar_id": 1,
+    "hidden_dim": 50,
+    "accuracy": 1.0,
+    "training_time": 6.299488067626953,
+    "final_loss": 0.0004551061748491211,
+    "model_path": "trained_models/tomita1_lstm_h50_weiss.pt"
+  },
+  {
+    "grammar_id": 2,
+    "hidden_dim": 50,
+    "accuracy": 1.0,
+    "training_time": 10.429563760757446,
+    "final_loss": 0.0004070849348675532,
+    "model_path": "trained_models/tomita2_lstm_h50_weiss.pt"
+  },
+  {
+    "grammar_id": 3,
+    "hidden_dim": 50,
+    "accuracy": 1.0,
+    "training_time": 46.5743510723114,
+    "final_loss": 8.665950500883457e-05,
+    "model_path": "trained_models/tomita3_lstm_h50_weiss.pt"
+  },
+  {
+    "grammar_id": 4,
+    "hidden_dim": 50,
+    "accuracy": 1.0,
+    "training_time": 25.02728033065796,
+    "final_loss": 0.00010137936532187921,
+    "model_path": "trained_models/tomita4_lstm_h50_weiss.pt"
+  },
+  {
+    "grammar_id": 5,
+    "hidden_dim": 50,
+    "accuracy": 1.0,
+    "training_time": 725.840612411499,
+    "final_loss": 0.0004610599586790489,
+    "model_path": "trained_models/tomita5_lstm_h50_weiss.pt"
+  },
+  {
+    "grammar_id": 6,
+    "hidden_dim": 50,
+    "accuracy": 1.0,
+    "training_time": 589.935140132904,
+    "final_loss": 0.0002571259208138863,
+    "model_path": "trained_models/tomita6_lstm_h50_weiss.pt"
+  },
+  {
+    "grammar_id": 7,
+    "hidden_dim": 50,
+    "accuracy": 1.0,
+    "training_time": 22.646586894989014,
+    "final_loss": 0.00024394836601628205,
+    "model_path": "trained_models/tomita7_lstm_h50_weiss.pt"
+  }
+]

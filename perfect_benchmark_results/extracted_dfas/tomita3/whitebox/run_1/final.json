@@ -1,0 +1,153 @@
+{
+  "states": [
+    "",
+    "10",
+    "101",
+    "100",
+    "1"
+  ],
+  "alphabet": [
+    "0",
+    "1"
+  ],
+  "start_state": "",
+  "accept_states": [
+    "",
+    "100",
+    "1"
+  ],
+  "transitions": [
+    {
+      "from": "",
+      "symbol": "0",
+      "to": ""
+    },
+    {
+      "from": "",
+      "symbol": "1",
+      "to": "1"
+    },
+    {
+      "from": "10",
+      "symbol": "0",
+      "to": "100"
+    },
+    {
+      "from": "10",
+      "symbol": "1",
+      "to": "101"
+    },
+    {
+      "from": "101",
+      "symbol": "0",
+      "to": "101"
+    },
+    {
+      "from": "101",
+      "symbol": "1",
+      "to": "101"
+    },
+    {
+      "from": "100",
+      "symbol": "0",
+      "to": "10"
+    },
+    {
+      "from": "100",
+      "symbol": "1",
+      "to": "100"
+    },
+    {
+      "from": "1",
+      "symbol": "0",
+      "to": "10"
+    },
+    {
+      "from": "1",
+      "symbol": "1",
+      "to": ""
+    }
+  ],
+  "num_states": 5,
+  "grammar": "tomita3",
+  "oracle": "whitebox",
+  "run": 1,
+  "learning_history": [
+    {
+      "iteration": 1,
+      "time": 0.0027856826782226562,
+      "size": 1,
+      "accuracy": 0.093,
+      "is_best": true,
+      "states": 1,
+      "dfa_summary": {
+        "states": [
+          ""
+        ],
+        "accept_states": [
+          ""
+        ],
+        "start_state": ""
+      },
+      "counterexample": {
+        "string": "10",
+        "length": 2,
+        "rnn_label": false,
+        "dfa_label": true,
+        "found_by": "whitebox"
+      }
+    },
+    {
+      "iteration": 2,
+      "time": 0.005887031555175781,
+      "size": 4,
+      "accuracy": 0.943,
+      "is_best": true,
+      "states": 4,
+      "dfa_summary": {
+        "states": [
+          "",
+          "10",
+          "1",
+          "101"
+        ],
+        "accept_states": [
+          "",
+          "1"
+        ],
+        "start_state": ""
+      },
+      "counterexample": {
+        "string": "10010",
+        "length": 5,
+        "rnn_label": false,
+        "dfa_label": true,
+        "found_by": "whitebox"
+      }
+    },
+    {
+      "iteration": 3,
+      "time": 0.4753303527832031,
+      "size": 5,
+      "accuracy": 1.0,
+      "is_best": true,
+      "states": 5,
+      "dfa_summary": {
+        "states": [
+          "",
+          "10",
+          "101",
+          "100",
+          "1"
+        ],
+        "accept_states": [
+          "",
+          "100",
+          "1"
+        ],
+        "start_state": ""
+      },
+      "counterexample": null
+    }
+  ]
+}

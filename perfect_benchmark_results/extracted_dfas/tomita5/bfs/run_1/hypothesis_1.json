@@ -1,0 +1,46 @@
+{
+  "iteration": 1,
+  "time": 0.04446601867675781,
+  "states": [
+    "",
+    "0"
+  ],
+  "alphabet": [
+    "0",
+    "1"
+  ],
+  "start_state": "",
+  "accept_states": [
+    ""
+  ],
+  "transitions": [
+    {
+      "from": "",
+      "symbol": "0",
+      "to": "0"
+    },
+    {
+      "from": "",
+      "symbol": "1",
+      "to": "0"
+    },
+    {
+      "from": "0",
+      "symbol": "0",
+      "to": ""
+    },
+    {
+      "from": "0",
+      "symbol": "1",
+      "to": "0"
+    }
+  ],
+  "num_states": 2,
+  "counterexample_that_rejected_this": {
+    "string": "10",
+    "length": 2,
+    "rnn_label": false,
+    "dfa_label": true,
+    "found_by": "bfs"
+  }
+}

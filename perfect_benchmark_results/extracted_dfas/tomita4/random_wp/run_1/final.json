@@ -1,0 +1,113 @@
+{
+  "states": [
+    "",
+    "100",
+    "10",
+    "1000"
+  ],
+  "alphabet": [
+    "0",
+    "1"
+  ],
+  "start_state": "",
+  "accept_states": [
+    "",
+    "100",
+    "10"
+  ],
+  "transitions": [
+    {
+      "from": "",
+      "symbol": "0",
+      "to": "10"
+    },
+    {
+      "from": "",
+      "symbol": "1",
+      "to": ""
+    },
+    {
+      "from": "1000",
+      "symbol": "0",
+      "to": "1000"
+    },
+    {
+      "from": "1000",
+      "symbol": "1",
+      "to": "1000"
+    },
+    {
+      "from": "10",
+      "symbol": "0",
+      "to": "100"
+    },
+    {
+      "from": "10",
+      "symbol": "1",
+      "to": ""
+    },
+    {
+      "from": "100",
+      "symbol": "0",
+      "to": "1000"
+    },
+    {
+      "from": "100",
+      "symbol": "1",
+      "to": ""
+    }
+  ],
+  "num_states": 4,
+  "grammar": "tomita4",
+  "oracle": "random_wp",
+  "run": 1,
+  "learning_history": [
+    {
+      "iteration": 1,
+      "time": 0.044005393981933594,
+      "size": 1,
+      "accuracy": 0.203,
+      "is_best": true,
+      "states": 1,
+      "dfa_summary": {
+        "states": [
+          ""
+        ],
+        "accept_states": [
+          ""
+        ],
+        "start_state": ""
+      },
+      "counterexample": {
+        "string": "1000",
+        "length": 4,
+        "rnn_label": false,
+        "dfa_label": true,
+        "found_by": "random_wp"
+      }
+    },
+    {
+      "iteration": 2,
+      "time": 0.18155169486999512,
+      "size": 4,
+      "accuracy": 1.0,
+      "is_best": true,
+      "states": 4,
+      "dfa_summary": {
+        "states": [
+          "",
+          "100",
+          "10",
+          "1000"
+        ],
+        "accept_states": [
+          "",
+          "100",
+          "10"
+        ],
+        "start_state": ""
+      },
+      "counterexample": null
+    }
+  ]
+}

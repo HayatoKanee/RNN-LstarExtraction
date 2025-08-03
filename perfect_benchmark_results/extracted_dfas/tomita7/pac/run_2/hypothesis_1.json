@@ -1,0 +1,35 @@
+{
+  "iteration": 1,
+  "time": 0.034140586853027344,
+  "states": [
+    ""
+  ],
+  "alphabet": [
+    "0",
+    "1"
+  ],
+  "start_state": "",
+  "accept_states": [
+    ""
+  ],
+  "transitions": [
+    {
+      "from": "",
+      "symbol": "0",
+      "to": ""
+    },
+    {
+      "from": "",
+      "symbol": "1",
+      "to": ""
+    }
+  ],
+  "num_states": 1,
+  "counterexample_that_rejected_this": {
+    "string": "110010",
+    "length": 6,
+    "rnn_label": false,
+    "dfa_label": true,
+    "found_by": "pac"
+  }
+}

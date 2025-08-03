@@ -1,0 +1,7 @@
+{
+  "total_examples": 67035,
+  "positive_examples": 15192,
+  "negative_examples": 51843,
+  "max_length": 30,
+  "unique_lengths": 31
+}

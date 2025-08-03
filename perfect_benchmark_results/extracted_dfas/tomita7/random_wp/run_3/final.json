@@ -1,0 +1,127 @@
+{
+  "states": [
+    "",
+    "01",
+    "01101",
+    "0110110",
+    "0110"
+  ],
+  "alphabet": [
+    "0",
+    "1"
+  ],
+  "start_state": "",
+  "accept_states": [
+    "",
+    "01",
+    "01101",
+    "0110"
+  ],
+  "transitions": [
+    {
+      "from": "",
+      "symbol": "0",
+      "to": ""
+    },
+    {
+      "from": "",
+      "symbol": "1",
+      "to": "01"
+    },
+    {
+      "from": "01",
+      "symbol": "0",
+      "to": "0110"
+    },
+    {
+      "from": "01",
+      "symbol": "1",
+      "to": "01"
+    },
+    {
+      "from": "01101",
+      "symbol": "0",
+      "to": "0110110"
+    },
+    {
+      "from": "01101",
+      "symbol": "1",
+      "to": "01101"
+    },
+    {
+      "from": "0110110",
+      "symbol": "0",
+      "to": "0110110"
+    },
+    {
+      "from": "0110110",
+      "symbol": "1",
+      "to": "0110110"
+    },
+    {
+      "from": "0110",
+      "symbol": "0",
+      "to": "0110"
+    },
+    {
+      "from": "0110",
+      "symbol": "1",
+      "to": "01101"
+    }
+  ],
+  "num_states": 5,
+  "grammar": "tomita7",
+  "oracle": "random_wp",
+  "run": 3,
+  "learning_history": [
+    {
+      "iteration": 1,
+      "time": 0.02819085121154785,
+      "size": 1,
+      "accuracy": 0.03,
+      "is_best": true,
+      "states": 1,
+      "dfa_summary": {
+        "states": [
+          ""
+        ],
+        "accept_states": [
+          ""
+        ],
+        "start_state": ""
+      },
+      "counterexample": {
+        "string": "01101101",
+        "length": 8,
+        "rnn_label": false,
+        "dfa_label": true,
+        "found_by": "random_wp"
+      }
+    },
+    {
+      "iteration": 2,
+      "time": 0.23426294326782227,
+      "size": 5,
+      "accuracy": 1.0,
+      "is_best": true,
+      "states": 5,
+      "dfa_summary": {
+        "states": [
+          "",
+          "01",
+          "01101",
+          "0110110",
+          "0110"
+        ],
+        "accept_states": [
+          "",
+          "01",
+          "01101",
+          "0110"
+        ],
+        "start_state": ""
+      },
+      "counterexample": null
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "iteration": 4,
+  "time": 6.528864860534668,
+  "states": [
+    "",
+    ")",
+    "(",
+    "((",
+    "(()(("
+  ],
+  "alphabet": [
+    "(",
+    ")"
+  ],
+  "start_state": "",
+  "accept_states": [
+    ""
+  ],
+  "transitions": [
+    {
+      "from": "",
+      "symbol": "(",
+      "to": "("
+    },
+    {
+      "from": "",
+      "symbol": ")",
+      "to": ")"
+    },
+    {
+      "from": ")",
+      "symbol": "(",
+      "to": ")"
+    },
+    {
+      "from": ")",
+      "symbol": ")",
+      "to": ")"
+    },
+    {
+      "from": "(",
+      "symbol": "(",
+      "to": "(("
+    },
+    {
+      "from": "(",
+      "symbol": ")",
+      "to": ""
+    },
+    {
+      "from": "((",
+      "symbol": "(",
+      "to": "(()(("
+    },
+    {
+      "from": "((",
+      "symbol": ")",
+      "to": "("
+    },
+    {
+      "from": "(()((",
+      "symbol": "(",
+      "to": ")"
+    },
+    {
+      "from": "(()((",
+      "symbol": ")",
+      "to": "(("
+    }
+  ],
+  "num_states": 5,
+  "counterexample_that_rejected_this": {
+    "string": "()((((()))))()",
+    "length": 14,
+    "rnn_label": true,
+    "dfa_label": false,
+    "found_by": "pac"
+  }
+}

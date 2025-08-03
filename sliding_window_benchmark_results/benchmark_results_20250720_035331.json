@@ -1,0 +1,148 @@
+{
+  "balanced_brackets": {
+    "sliding_window_w2": [
+      {
+        "total_time": 0.6089920997619629,
+        "membership_queries": 90,
+        "equivalence_queries": 2,
+        "counterexamples_found": 1,
+        "num_states": 3,
+        "train_accuracy": 0.73875,
+        "test_accuracy": 0.755,
+        "extraction_successful": true,
+        "counterexample_lengths": [],
+        "long_sequence_accuracy": {
+          "100": 1.0,
+          "500": 1.0,
+          "1000": 1.0
+        },
+        "grammar_accuracy": 0.755,
+        "oracle_specific": {
+          "membership_queries": 90,
+          "iterations": 2,
+          "counterexamples": 1
+        }
+      }
+    ],
+    "sliding_window_w4": [
+      {
+        "total_time": 0.3688180446624756,
+        "membership_queries": 333,
+        "equivalence_queries": 3,
+        "counterexamples_found": 2,
+        "num_states": 5,
+        "train_accuracy": 0.76,
+        "test_accuracy": 0.785,
+        "extraction_successful": true,
+        "counterexample_lengths": [],
+        "long_sequence_accuracy": {
+          "100": 1.0,
+          "500": 1.0,
+          "1000": 1.0
+        },
+        "grammar_accuracy": 0.785,
+        "oracle_specific": {
+          "membership_queries": 333,
+          "iterations": 3,
+          "counterexamples": 2
+        }
+      }
+    ],
+    "sliding_window_w6": [
+      {
+        "total_time": 1.0195767879486084,
+        "membership_queries": 1401,
+        "equivalence_queries": 4,
+        "counterexamples_found": 3,
+        "num_states": 13,
+        "train_accuracy": 0.76,
+        "test_accuracy": 0.775,
+        "extraction_successful": true,
+        "counterexample_lengths": [],
+        "long_sequence_accuracy": {
+          "100": 1.0,
+          "500": 1.0,
+          "1000": 1.0
+        },
+        "grammar_accuracy": 0.775,
+        "oracle_specific": {
+          "membership_queries": 1401,
+          "iterations": 4,
+          "counterexamples": 3
+        }
+      }
+    ],
+    "sliding_window_w8": [
+      {
+        "total_time": 15.437278270721436,
+        "membership_queries": 18434,
+        "equivalence_queries": 7,
+        "counterexamples_found": 6,
+        "num_states": 53,
+        "train_accuracy": 0.7475,
+        "test_accuracy": 0.755,
+        "extraction_successful": true,
+        "counterexample_lengths": [],
+        "long_sequence_accuracy": {
+          "100": 1.0,
+          "500": 1.0,
+          "1000": 1.0
+        },
+        "grammar_accuracy": 0.755,
+        "oracle_specific": {
+          "membership_queries": 18434,
+          "iterations": 7,
+          "counterexamples": 6
+        }
+      }
+    ],
+    "sliding_window_w10": [
+      {
+        "total_time": 60.002912521362305,
+        "membership_queries": 78730,
+        "equivalence_queries": 12,
+        "counterexamples_found": 11,
+        "num_states": 165,
+        "train_accuracy": 0.75,
+        "test_accuracy": 0.755,
+        "extraction_successful": true,
+        "counterexample_lengths": [],
+        "long_sequence_accuracy": {
+          "100": 1.0,
+          "500": 1.0,
+          "1000": 1.0
+        },
+        "grammar_accuracy": 0.755,
+        "oracle_specific": {
+          "membership_queries": 78730,
+          "iterations": 12,
+          "counterexamples": 11
+        }
+      }
+    ],
+    "whitebox": [
+      {
+        "total_time": 0.08847308158874512,
+        "membership_queries": 458,
+        "equivalence_queries": 1,
+        "counterexamples_found": 0,
+        "num_states": 2,
+        "train_accuracy": 0.63625,
+        "test_accuracy": 0.67,
+        "extraction_successful": true,
+        "counterexample_lengths": [],
+        "long_sequence_accuracy": {
+          "100": 0.66,
+          "500": 0.66,
+          "1000": 0.6
+        },
+        "grammar_accuracy": 0.67,
+        "oracle_specific": {
+          "membership_queries": 458,
+          "iterations": 1,
+          "counterexamples": 0
+        }
+      }
+    ]
+  }
+}

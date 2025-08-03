@@ -1,0 +1,72 @@
+{
+  "id": "alphabet2_states5_v1",
+  "states": [
+    "q0",
+    "q4",
+    "q3",
+    "q1",
+    "q2"
+  ],
+  "alphabet": [
+    "0",
+    "1"
+  ],
+  "initial_state": "q0",
+  "accepting_states": [
+    "q4"
+  ],
+  "transitions": [
+    {
+      "from": "q0",
+      "symbol": "0",
+      "to": "q2"
+    },
+    {
+      "from": "q0",
+      "symbol": "1",
+      "to": "q0"
+    },
+    {
+      "from": "q4",
+      "symbol": "0",
+      "to": "q4"
+    },
+    {
+      "from": "q4",
+      "symbol": "1",
+      "to": "q1"
+    },
+    {
+      "from": "q3",
+      "symbol": "0",
+      "to": "q1"
+    },
+    {
+      "from": "q3",
+      "symbol": "1",
+      "to": "q0"
+    },
+    {
+      "from": "q1",
+      "symbol": "0",
+      "to": "q3"
+    },
+    {
+      "from": "q1",
+      "symbol": "1",
+      "to": "q3"
+    },
+    {
+      "from": "q2",
+      "symbol": "0",
+      "to": "q4"
+    },
+    {
+      "from": "q2",
+      "symbol": "1",
+      "to": "q4"
+    }
+  ],
+  "num_states": 5,
+  "alphabet_size": 2
+}

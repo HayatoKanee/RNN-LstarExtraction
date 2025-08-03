@@ -1,0 +1,101 @@
+{
+  "iteration": 5,
+  "time": 8.458826541900635,
+  "states": [
+    "",
+    "()((((",
+    ")",
+    "(",
+    "((",
+    "(()((",
+    "()((((("
+  ],
+  "alphabet": [
+    "(",
+    ")"
+  ],
+  "start_state": "",
+  "accept_states": [
+    ""
+  ],
+  "transitions": [
+    {
+      "from": "",
+      "symbol": "(",
+      "to": "("
+    },
+    {
+      "from": "",
+      "symbol": ")",
+      "to": ")"
+    },
+    {
+      "from": ")",
+      "symbol": "(",
+      "to": ")"
+    },
+    {
+      "from": ")",
+      "symbol": ")",
+      "to": ")"
+    },
+    {
+      "from": "()(((((",
+      "symbol": "(",
+      "to": ")"
+    },
+    {
+      "from": "()(((((",
+      "symbol": ")",
+      "to": "()(((("
+    },
+    {
+      "from": "()((((",
+      "symbol": "(",
+      "to": "()((((("
+    },
+    {
+      "from": "()((((",
+      "symbol": ")",
+      "to": "(()(("
+    },
+    {
+      "from": "(",
+      "symbol": "(",
+      "to": "(("
+    },
+    {
+      "from": "(",
+      "symbol": ")",
+      "to": ""
+    },
+    {
+      "from": "((",
+      "symbol": "(",
+      "to": "(()(("
+    },
+    {
+      "from": "((",
+      "symbol": ")",
+      "to": "("
+    },
+    {
+      "from": "(()((",
+      "symbol": "(",
+      "to": "()(((("
+    },
+    {
+      "from": "(()((",
+      "symbol": ")",
+      "to": "(("
+    }
+  ],
+  "num_states": 7,
+  "counterexample_that_rejected_this": {
+    "string": "(()((((())))))",
+    "length": 14,
+    "rnn_label": true,
+    "dfa_label": false,
+    "found_by": "pac"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "dataset_id": "alphabet2_states20_v2",
+  "architecture": "gru",
+  "accuracy": 1.0,
+  "alphabet": [
+    "0",
+    "1"
+  ],
+  "alphabet_size": 2,
+  "hidden_dim": 100,
+  "num_layers": 2,
+  "embedding_dim": 10,
+  "training_method": "balanced",
+  "finetuned": true,
+  "finetune_errors_before": 29,
+  "finetune_errors_after": 0,
+  "verified_perfect": true,
+  "exhaustive_check_length": 15
+}

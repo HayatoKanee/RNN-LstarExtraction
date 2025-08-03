@@ -1,0 +1,57 @@
+{
+  "iteration": 2,
+  "time": 0.09909582138061523,
+  "states": [
+    "",
+    "011",
+    "0"
+  ],
+  "alphabet": [
+    "0",
+    "1"
+  ],
+  "start_state": "",
+  "accept_states": [
+    ""
+  ],
+  "transitions": [
+    {
+      "from": "",
+      "symbol": "0",
+      "to": "0"
+    },
+    {
+      "from": "",
+      "symbol": "1",
+      "to": "011"
+    },
+    {
+      "from": "0",
+      "symbol": "0",
+      "to": "011"
+    },
+    {
+      "from": "0",
+      "symbol": "1",
+      "to": ""
+    },
+    {
+      "from": "011",
+      "symbol": "0",
+      "to": ""
+    },
+    {
+      "from": "011",
+      "symbol": "1",
+      "to": "0"
+    }
+  ],
+  "num_states": 3,
+  "counterexample_that_rejected_this": {
+    "string": "111110110",
+    "length": 9,
+    "rnn_label": true,
+    "dfa_label": false,
+    "found_by": "sliding_window"
+  }
+}

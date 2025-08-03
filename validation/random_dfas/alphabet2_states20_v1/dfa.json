@@ -1,0 +1,242 @@
+{
+  "id": "alphabet2_states20_v1",
+  "states": [
+    "q19",
+    "q7",
+    "q8",
+    "q18",
+    "q13",
+    "q11",
+    "q0",
+    "q4",
+    "q9",
+    "q10",
+    "q6",
+    "q3",
+    "q5",
+    "q12",
+    "q15",
+    "q1",
+    "q2",
+    "q14",
+    "q16",
+    "q17"
+  ],
+  "alphabet": [
+    "0",
+    "1"
+  ],
+  "initial_state": "q0",
+  "accepting_states": [
+    "q19",
+    "q5",
+    "q14",
+    "q16",
+    "q12",
+    "q17"
+  ],
+  "transitions": [
+    {
+      "from": "q19",
+      "symbol": "0",
+      "to": "q2"
+    },
+    {
+      "from": "q19",
+      "symbol": "1",
+      "to": "q19"
+    },
+    {
+      "from": "q7",
+      "symbol": "0",
+      "to": "q8"
+    },
+    {
+      "from": "q7",
+      "symbol": "1",
+      "to": "q3"
+    },
+    {
+      "from": "q8",
+      "symbol": "0",
+      "to": "q10"
+    },
+    {
+      "from": "q8",
+      "symbol": "1",
+      "to": "q2"
+    },
+    {
+      "from": "q18",
+      "symbol": "0",
+      "to": "q11"
+    },
+    {
+      "from": "q18",
+      "symbol": "1",
+      "to": "q12"
+    },
+    {
+      "from": "q13",
+      "symbol": "0",
+      "to": "q18"
+    },
+    {
+      "from": "q13",
+      "symbol": "1",
+      "to": "q10"
+    },
+    {
+      "from": "q11",
+      "symbol": "0",
+      "to": "q14"
+    },
+    {
+      "from": "q11",
+      "symbol": "1",
+      "to": "q14"
+    },
+    {
+      "from": "q0",
+      "symbol": "0",
+      "to": "q3"
+    },
+    {
+      "from": "q0",
+      "symbol": "1",
+      "to": "q0"
+    },
+    {
+      "from": "q4",
+      "symbol": "0",
+      "to": "q13"
+    },
+    {
+      "from": "q4",
+      "symbol": "1",
+      "to": "q10"
+    },
+    {
+      "from": "q9",
+      "symbol": "0",
+      "to": "q19"
+    },
+    {
+      "from": "q9",
+      "symbol": "1",
+      "to": "q0"
+    },
+    {
+      "from": "q10",
+      "symbol": "0",
+      "to": "q4"
+    },
+    {
+      "from": "q10",
+      "symbol": "1",
+      "to": "q16"
+    },
+    {
+      "from": "q6",
+      "symbol": "0",
+      "to": "q1"
+    },
+    {
+      "from": "q6",
+      "symbol": "1",
+      "to": "q7"
+    },
+    {
+      "from": "q3",
+      "symbol": "0",
+      "to": "q10"
+    },
+    {
+      "from": "q3",
+      "symbol": "1",
+      "to": "q17"
+    },
+    {
+      "from": "q5",
+      "symbol": "0",
+      "to": "q4"
+    },
+    {
+      "from": "q5",
+      "symbol": "1",
+      "to": "q5"
+    },
+    {
+      "from": "q12",
+      "symbol": "0",
+      "to": "q12"
+    },
+    {
+      "from": "q12",
+      "symbol": "1",
+      "to": "q6"
+    },
+    {
+      "from": "q15",
+      "symbol": "0",
+      "to": "q2"
+    },
+    {
+      "from": "q15",
+      "symbol": "1",
+      "to": "q4"
+    },
+    {
+      "from": "q1",
+      "symbol": "0",
+      "to": "q18"
+    },
+    {
+      "from": "q1",
+      "symbol": "1",
+      "to": "q19"
+    },
+    {
+      "from": "q2",
+      "symbol": "0",
+      "to": "q12"
+    },
+    {
+      "from": "q2",
+      "symbol": "1",
+      "to": "q15"
+    },
+    {
+      "from": "q14",
+      "symbol": "0",
+      "to": "q6"
+    },
+    {
+      "from": "q14",
+      "symbol": "1",
+      "to": "q13"
+    },
+    {
+      "from": "q16",
+      "symbol": "0",
+      "to": "q5"
+    },
+    {
+      "from": "q16",
+      "symbol": "1",
+      "to": "q13"
+    },
+    {
+      "from": "q17",
+      "symbol": "0",
+      "to": "q8"
+    },
+    {
+      "from": "q17",
+      "symbol": "1",
+      "to": "q4"
+    }
+  ],
+  "num_states": 20,
+  "alphabet_size": 2
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "grammar_id": 1,
+    "accuracy": 0.981651376146789,
+    "target_accuracy": 0.98,
+    "training_time": 2.524312973022461,
+    "final_loss": null,
+    "model_path": "trained_models_early_stop/tomita1_lstm_h50.pt"
+  },
+  {
+    "grammar_id": 2,
+    "accuracy": 0.9811912225705329,
+    "target_accuracy": 0.98,
+    "training_time": 0.2185673713684082,
+    "final_loss": null,
+    "model_path": "trained_models_early_stop/tomita2_lstm_h50.pt"
+  },
+  {
+    "grammar_id": 3,
+    "accuracy": 1.0,
+    "target_accuracy": 0.98,
+    "training_time": 68.73128986358643,
+    "final_loss": 0.00045498488592775793,
+    "model_path": "trained_models_early_stop/tomita3_lstm_h50.pt"
+  },
+  {
+    "grammar_id": 4,
+    "accuracy": 0.9848394768133175,
+    "target_accuracy": 0.98,
+    "training_time": 10.565891027450562,
+    "final_loss": null,
+    "model_path": "trained_models_early_stop/tomita4_lstm_h50.pt"
+  },
+  {
+    "grammar_id": 5,
+    "accuracy": 1.0,
+    "target_accuracy": 0.98,
+    "training_time": 124.08829975128174,
+    "final_loss": 0.0002608335619934564,
+    "model_path": "trained_models_early_stop/tomita5_lstm_h50.pt"
+  },
+  {
+    "grammar_id": 6,
+    "accuracy": 0.9973707274320771,
+    "target_accuracy": 0.98,
+    "training_time": 348.6275351047516,
+    "final_loss": 0.059564350481713504,
+    "model_path": "trained_models_early_stop/tomita6_lstm_h50.pt"
+  },
+  {
+    "grammar_id": 7,
+    "accuracy": 1.0,
+    "target_accuracy": 0.98,
+    "training_time": 21.496561288833618,
+    "final_loss": 0.06950292607653613,
+    "model_path": "trained_models_early_stop/tomita7_lstm_h50.pt"
+  }
+]

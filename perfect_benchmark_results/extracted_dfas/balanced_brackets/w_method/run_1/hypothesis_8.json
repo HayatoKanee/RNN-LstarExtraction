@@ -1,0 +1,123 @@
+{
+  "iteration": 8,
+  "time": 9.850732564926147,
+  "states": [
+    "",
+    "(((",
+    "((((",
+    "(((((((",
+    ")",
+    "(((((",
+    "(",
+    "((((((",
+    "(("
+  ],
+  "alphabet": [
+    "(",
+    ")"
+  ],
+  "start_state": "",
+  "accept_states": [
+    ""
+  ],
+  "transitions": [
+    {
+      "from": "",
+      "symbol": "(",
+      "to": "("
+    },
+    {
+      "from": "",
+      "symbol": ")",
+      "to": ")"
+    },
+    {
+      "from": "(((",
+      "symbol": "(",
+      "to": "(((("
+    },
+    {
+      "from": "(((",
+      "symbol": ")",
+      "to": "(("
+    },
+    {
+      "from": ")",
+      "symbol": "(",
+      "to": ")"
+    },
+    {
+      "from": ")",
+      "symbol": ")",
+      "to": ")"
+    },
+    {
+      "from": "((((((",
+      "symbol": "(",
+      "to": "((((((("
+    },
+    {
+      "from": "((((((",
+      "symbol": ")",
+      "to": "((((("
+    },
+    {
+      "from": "((((",
+      "symbol": "(",
+      "to": "((((("
+    },
+    {
+      "from": "((((",
+      "symbol": ")",
+      "to": "((("
+    },
+    {
+      "from": "(((((",
+      "symbol": "(",
+      "to": "(((((("
+    },
+    {
+      "from": "(((((",
+      "symbol": ")",
+      "to": "(((("
+    },
+    {
+      "from": "(",
+      "symbol": "(",
+      "to": "(("
+    },
+    {
+      "from": "(",
+      "symbol": ")",
+      "to": ""
+    },
+    {
+      "from": "((",
+      "symbol": "(",
+      "to": "((("
+    },
+    {
+      "from": "((",
+      "symbol": ")",
+      "to": "("
+    },
+    {
+      "from": "(((((((",
+      "symbol": "(",
+      "to": ")"
+    },
+    {
+      "from": "(((((((",
+      "symbol": ")",
+      "to": "(((((("
+    }
+  ],
+  "num_states": 9,
+  "counterexample_that_rejected_this": {
+    "string": "(((((((())))))))",
+    "length": 16,
+    "rnn_label": true,
+    "dfa_label": false,
+    "found_by": "w_method"
+  }
+}

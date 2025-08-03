@@ -1,0 +1,113 @@
+{
+  "states": [
+    "",
+    "1100",
+    "11000",
+    "110"
+  ],
+  "alphabet": [
+    "0",
+    "1"
+  ],
+  "start_state": "",
+  "accept_states": [
+    "",
+    "1100",
+    "110"
+  ],
+  "transitions": [
+    {
+      "from": "",
+      "symbol": "0",
+      "to": "110"
+    },
+    {
+      "from": "",
+      "symbol": "1",
+      "to": ""
+    },
+    {
+      "from": "1100",
+      "symbol": "0",
+      "to": "11000"
+    },
+    {
+      "from": "1100",
+      "symbol": "1",
+      "to": ""
+    },
+    {
+      "from": "110",
+      "symbol": "0",
+      "to": "1100"
+    },
+    {
+      "from": "110",
+      "symbol": "1",
+      "to": ""
+    },
+    {
+      "from": "11000",
+      "symbol": "0",
+      "to": "11000"
+    },
+    {
+      "from": "11000",
+      "symbol": "1",
+      "to": "11000"
+    }
+  ],
+  "num_states": 4,
+  "grammar": "tomita4",
+  "oracle": "pac",
+  "run": 1,
+  "learning_history": [
+    {
+      "iteration": 1,
+      "time": 0.014788150787353516,
+      "size": 1,
+      "accuracy": 0.203,
+      "is_best": true,
+      "states": 1,
+      "dfa_summary": {
+        "states": [
+          ""
+        ],
+        "accept_states": [
+          ""
+        ],
+        "start_state": ""
+      },
+      "counterexample": {
+        "string": "11000100",
+        "length": 8,
+        "rnn_label": false,
+        "dfa_label": true,
+        "found_by": "pac"
+      }
+    },
+    {
+      "iteration": 2,
+      "time": 0.2670009136199951,
+      "size": 4,
+      "accuracy": 1.0,
+      "is_best": true,
+      "states": 4,
+      "dfa_summary": {
+        "states": [
+          "",
+          "1100",
+          "11000",
+          "110"
+        ],
+        "accept_states": [
+          "",
+          "1100",
+          "110"
+        ],
+        "start_state": ""
+      },
+      "counterexample": null
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "alphabet_size": 3,
+  "alphabet": [
+    "a",
+    "b",
+    "c"
+  ],
+  "sizes": [
+    5,
+    10
+  ],
+  "count_per_size": 2,
+  "accepting_ratio": 0.3,
+  "base_seed": 42,
+  "dfas": [
+    {
+      "id": "alphabet3_states5_v1",
+      "num_states": 5,
+      "alphabet_size": 3,
+      "seed": 5042
+    },
+    {
+      "id": "alphabet3_states5_v2",
+      "num_states": 5,
+      "alphabet_size": 3,
+      "seed": 5043
+    },
+    {
+      "id": "alphabet3_states10_v1",
+      "num_states": 10,
+      "alphabet_size": 3,
+      "seed": 10042
+    },
+    {
+      "id": "alphabet3_states10_v2",
+      "num_states": 10,
+      "alphabet_size": 3,
+      "seed": 10043
+    }
+  ]
+}
