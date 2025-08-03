@@ -13,7 +13,7 @@ This framework provides a modular implementation for extracting finite automata 
 pip install -r requirements.txt
 
 # Run demo notebook
-jupyter notebook notebooks/demo.ipynb
+jupyter notebook demo.ipynb
 
 # Run full benchmark
 python run_benchmark.py
